@@ -29,6 +29,6 @@ table.bordered, table.bordered th, table.bordered td {
     font-style: italic;
 }
 
-.ion-padding-bottom {
+.ion-padding-bottom.addon-mod_page-timemodified.ng-star-inserted {
  display: none; 
 }
