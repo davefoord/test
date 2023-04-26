@@ -29,8 +29,8 @@ table.bordered thead {
     border-width: 2px;
 }
 
-/*Formats captions*/
-.CABIcaption {
+/*Formats captions (note the correct class is CABIcaption, but attostylecaption is used in some historic courses*/
+.CABIcaption ,.attostylescaption {
     font-size: 0.8rem;
     font-style: italic;
 }
