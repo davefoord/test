@@ -2,7 +2,7 @@
 table.bordered, table.bordered th, table.bordered td {
     border: 1px solid #ddd;
     vertical-align: top;
-    padding: 5rem;
+    padding: 1rem;
 }
 
 /*creates the container on the front page that displays the cards*/
