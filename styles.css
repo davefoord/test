@@ -24,7 +24,7 @@ table.bordered, table.bordered th, table.bordered td {
     border-width: 2px;
 }
 
-.CABIcaption {
+p.CABIcaption {
     font-size: .8rem;
     font-style: italic;
 }
