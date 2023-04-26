@@ -28,3 +28,7 @@ table.bordered, table.bordered th, table.bordered td {
     font-size: .8rem;
     font-style: italic;
 }
+
+.addon-mod_page-timemodified {
+ Display: none;   
+}
