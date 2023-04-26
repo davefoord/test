@@ -3,3 +3,10 @@ table.bordered, table.bordered th, table.bordered td {
     vertical-align: top;
     padding: 1rem;
 }
+
+
+.CABI_Cards_Container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
