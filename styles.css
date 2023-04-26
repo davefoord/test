@@ -44,3 +44,39 @@ table.bordered thead {
 table {
    margin-bottom: 0.5rem; 
 }
+
+/*Displays content in 2 side by side divs*/
+/*create as many items within it by using <div class = "sidebysideitem   */
+/*Specify the width of the items in percent by adding .p25 etc class to div*/
+
+.sidebysidecontainer {
+    display: flex;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/*this class will get the right hand item to autosize to fit. This shouldn't be required,  but is left in in case any items exist in the site that use this*/
+.sidebysideright {
+  flex: 1;
+padding: 5px;
+}
+
+.sidebysideitem {
+padding: 5px;
+}
+
+.p25 {
+  flex: 0 0 25%;
+}
+
+.p33 {
+  flex: 0 0 33%;
+}
+
+.p50 {
+  flex: 0 0 50%;
+}
+
+.p75 {
+  flex: 0 0 75%;
+}
