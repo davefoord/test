@@ -10,3 +10,14 @@ table.bordered, table.bordered th, table.bordered td {
     flex-wrap: wrap;
     justify-content: center;
 }
+
+.CABI_Card {
+    display: flex;
+    flex: 1 0 220px;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 1rem 0.25em;
+    border-color: #d7dfe3;
+    border-style: solid;
+    border-width: 2px;
+}
