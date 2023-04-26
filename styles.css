@@ -5,6 +5,11 @@ table.bordered, table.bordered th, table.bordered td {
     padding: 1rem;
 }
 
+table.bordered thead {
+    background-color: #efe;
+    font-size: 1.2rem;
+}
+
 /*creates the container on the front page that displays the cards*/
 .CABI_Cards_Container {
     display: flex;
@@ -24,11 +29,18 @@ table.bordered, table.bordered th, table.bordered td {
     border-width: 2px;
 }
 
+/*Formats captions*/
 .CABIcaption {
     font-size: 0.8rem;
     font-style: italic;
 }
 
+/*Hides the 'last modified' information */
 .ion-padding-bottom.addon-mod_page-timemodified.ng-star-inserted {
  display: none; 
+}
+
+/*adds a margin below tables*/
+table {
+   margin-bottom: 0.5rem; 
 }
