@@ -80,3 +80,11 @@ padding: 5px;
 .p75 {
   flex: 0 0 75%;
 }
+
+/*If screensize is less than 700px, the first container is shown full width to force other items to wrap onto new line*/
+@media screen and (max-width:700px) {
+  .sidebysidecontainer { flex-wrap: wrap;  }
+  .sidebysideitem:first-child { flex-basis: 100%; }
+  .sidebysideitem:last-child { margin: auto; }
+}
+/*End of side by side containers*/
