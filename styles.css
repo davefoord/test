@@ -24,6 +24,6 @@ table.bordered, table.bordered th, table.bordered td {
     border-width: 2px;
 }
 
-.ion-padding-bottom.addon-mod_page-timemodified.ng-star-inserted {
+p.ion-padding-bottom.addon-mod_page-timemodified.ng-star-inserted {
  display: none;   
 }
