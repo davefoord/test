@@ -1,16 +1,18 @@
+/*Applies borders and padding to tables that have the class of .bordered applied*/
 table.bordered, table.bordered th, table.bordered td {
     border: 1px solid #ddd;
     vertical-align: top;
     padding: 1rem;
 }
 
-
+/*creates the container on the front page that displays the cards*/
 .CABI_Cards_Container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
+/*Creates the cards withtin the above container*/
 .CABI_Card {
     display: flex;
     flex: 1 0 220px;
@@ -20,4 +22,8 @@ table.bordered, table.bordered th, table.bordered td {
     border-color: #d7dfe3;
     border-style: solid;
     border-width: 2px;
+}
+
+ion-padding-bottom addon-mod_page-timemodified ng-star-inserted {
+ display: none;   
 }
