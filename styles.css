@@ -90,6 +90,6 @@ padding: 5px;
 /*End of side by side containers*/
 
 /*Where the tabbed filter is used, this hides the bulleted list, so the contents of the tabs are just shown as linear text - relies on each tab having a proper heading at the top of the tab*/
-.filter-tabs-titlegroup-1, filter-tabs-titlegroup-1-printable {
+.filter-tabs-titlegroup-1, .filter-tabs-titlegroup-1-printable {
   display: none;
 }
