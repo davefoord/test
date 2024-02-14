@@ -1,1 +1,46 @@
+/*The following CSS creates the course summary container*/
+/*Taken and adapted by Dave Foord from http://thenewcode.com/1169/Balancing-Text-and-Images-with-Flexbox */
+.summaryflex {
+align-items: center;
+  margin: 0;
+  display: flex;
+ background-color: #007490;
+  margin-bottom: 2rem;
+}
 
+.summaryflex div:first-child {
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+}
+
+.summaryflex div:last-child {
+  margin: 2rem;
+  flex: 2;
+}
+
+.summaryflex h3 {
+  font-size: 1.5rem;
+  margin-top: 0;
+  font-weight: 400;
+color:#ffffff;
+}
+.summaryflex p {
+  font-size: 1rem;
+  line-height: 1.4;
+  font-weight: 400;
+color:#ffffff;
+}
+
+.summaryflex li {
+  font-size: 1rem;
+  line-height: 1.4;
+  font-weight: 400;
+color:#ffffff;
+}
+
+.summaryflex p:last-of-type {
+  margin-bottom: 0;
+}
+
+/*End of course summary CSS*/
